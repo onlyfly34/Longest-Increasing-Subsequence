@@ -1,11 +1,11 @@
 # Longest-Increasing-Subsequence
 This project contains code to find out LIS(Longest Increasing Subsequence) string. Given a sorted sequence of integers(in sorted_list.txt), find out the LIS. The program can read sequence of integers of any length, so modify `sorted_list.txt` as you please.
 
-## About binary search here
+## 1. About binary search here
 <img src="BS%20algorithm.PNG" width="70%">
 As the algorithm shows, binary search here must return certain index so that the program knows where to put the number from `source_string` to `LIS_string`. We make a little modification to binary search algorithm to meet out needs.
 
-## Execute the program
+## 2. Execute the program
 Just clone the project:  
 `git clone https://github.com/onlyfly34/Longest-Increasing-Subsequence.git`
 
@@ -18,7 +18,7 @@ And compile:
 Execute:  
 `./LIS`
 
-## Sample input and output
+## 3. Sample input and output
 The same input is in `sorted_list.txt`
 ``` bash
 5 3 4 9 6 6 2 1 6 8 7 6 9 20
