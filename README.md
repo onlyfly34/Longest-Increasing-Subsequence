@@ -2,7 +2,7 @@
 This project contains code to find out LIS(Longest Increasing Subsequence) string. Given a sorted sequence of integers(in sorted_list.txt), find out the LIS. The program can read sequence of integers of any length, so modify `sorted_list.txt` as you please.
 
 ## About binary search here
-![](./BS algorithm.png)
+![](BS%20algorithm.PNG)
 As the algorithm shows, binary search here must return certain index so that the program knows where to put the number from `source_string` to `LIS_string`. We make a little modification to binary search algorithm to meet out needs.
 
 ## Execute the program
