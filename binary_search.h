@@ -1,6 +1,6 @@
-int BinarySearch(Array *a, int key, int lower, size_t upper){
+int BinarySearch(Array *a, int key, int lower, int upper){
 	int mid=(lower+upper)>>1;
-	if(lower > (int)upper) return mid+1;
+	if(lower > upper) return mid+1;
 	else {
 		int temp = a->array[mid];
 		if(temp == key) return mid;
