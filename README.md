@@ -22,7 +22,7 @@ Execute:
 ### Or just open the project with CodeBlocks IDE
 
 ## 3. Sample input and output
-The same input is in `input-example1` and `input-example2`.
+The same input is in `input-example1` and `input-example2`.  
 Take `input-example1` for example:
 ``` bash
 5 3 4 9 6 6 2 1 6 8 7 6 9 20
