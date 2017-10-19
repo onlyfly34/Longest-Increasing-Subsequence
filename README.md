@@ -6,6 +6,7 @@ This project contains code to find out LIS(Longest Increasing Subsequence) strin
 As the algorithm shows, binary search here must return certain index so that the program knows where to put the number from `source_string` to `LIS_string`. We make a little modification to binary search algorithm to meet out needs.
 
 ## 2. Execute the program
+### In terminal:
 Just clone the project:  
 `git clone https://github.com/onlyfly34/Longest-Increasing-Subsequence.git`
 
@@ -16,15 +17,19 @@ And compile:
 `make`
 
 Execute:  
-`./LIS`
+`./LIS <input-file-path>`
+
+### Or just open the project with CodeBlocks IDE
 
 ## 3. Sample input and output
-The same input is in `sorted_list.txt`
+The same input is in `input-example1` and `input-example2`.
+Take `input-example1` for example:
 ``` bash
 5 3 4 9 6 6 2 1 6 8 7 6 9 20
 ```
 
 Corresponding output is as follows:
 ``` bash
+Length of LIS: 6
 Longest increasing subsequence: [ 3 4 6 7 9 20 ]
 ```
